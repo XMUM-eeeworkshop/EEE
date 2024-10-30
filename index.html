@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eeeworkshop</title>
+    <style>
+      /* 通用样式 */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      /* 导航栏样式 */
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(90deg, #0062e6, #33aeff);
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        left: 10px;
+        right: 10px;
+        max-width: calc(100% - 20px);
+        top: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+
+      .logo img {
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      .links {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .links a {
+        color: white;
+        padding: 10px 40px;
+        margin: 0 8px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        font-size: 16px;
+        line-height: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 10px;
+        transition: background 0.3s, transform 0.2s;
+
+        flex: 1 1 auto;
+        max-width: 150px;
+      }
+
+      .links a:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+      }
+
+      /* 搜索框样式 */
+      .search-container {
+        flex: 1 1 auto;
+        max-width: 200px;
+      }
+
+      .search-input {
+        width: 80%;
+        padding: 8px 15px;
+        font-size: 15px;
+        border: 1px solid #e0dede96;
+        border-radius: 20px;
+        outline: none;
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        transition: background 0.3s;
+      }
+
+      .search-input::placeholder {
+        color: rgba(255, 255, 255, 0.8);
+      }
+
+      .search-input:focus {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      /* 响应式调整 - 大屏幕和中屏幕 */
+      @media (max-width: 1200px) {
+        .links a {
+          padding: 8px 15px;
+          font-size: 14px;
+        }
+        .search-container {
+          max-width: 180px;
+        }
+      }
+
+      @media (max-width: 992px) {
+        .links a {
+          padding: 6px 10px;
+          font-size: 13px;
+        }
+        .search-container {
+          max-width: 160px;
+        }
+      }
+
+      /* 建议框样式 */
+      .suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: none;
+        max-height: 200px;
+        overflow-y: auto;
+        z-index: 1001;
+      }
+
+      .suggestions div {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .suggestions div:hover {
+        background-color: #f0f0f0;
+      }
+
+      /* 内容区样式 */
+      .content {
+        margin-top: 180px;
+        text-align: center;
+        font-weight: bolder;
+      }
+
+      /* 卡片样式 */
+      .card {
+        background-color: rgba(255, 255, 255, 0.65);
+        padding: 80px 30px;
+        margin: 20px auto;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s;
+        max-width: 600px;
+      }
+
+      .card:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      }
+
+      .footer-image {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1; /* 确保图片位于所有内容的下方 */
+      }
+
+      /* 欢迎标题样式 */
+      h1 {
+        color: #0062e6;
+        font-size: 2em;
+        margin-bottom: 5px;
+      }
+
+      /* 响应式设计 */
+      @media (max-width: 600px) {
+        /* Ensure navbar links fit in a single line and are spaced evenly */
+        .navbar {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 8px 10px;
+          height: auto;
+        }
+
+        .links {
+          display: flex;
+          flex: 1;
+          justify-content: space-around;
+          gap: 2px;
+          flex-wrap: nowrap;
+          width: 100%;
+          max-width: 100%;
+          margin-bottom: 10px;
+        }
+
+        .links a {
+          flex-grow: 1;
+          font-size: 11px;
+          padding: 6px 0;
+          text-align: center;
+        }
+
+        .search-container {
+          margin-top: 5px;
+        }
+        .content {
+          padding-top: 55px;
+        }
+
+        .card {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+
+        /* Ensure pagination buttons fit within the screen width without overlap */
+        .pagination {
+          display: flex;
+          justify-content: space-around;
+          gap: 4px;
+          flex-wrap: nowrap;
+        }
+
+        .pagination a {
+          flex-grow: 1;
+          padding: 8px;
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <div class="navbar">
+      <div class="logo">
+        <img
+          src="https://www.xmu.edu.my/_upload/tpl/08/9f/2207/template2207/htmlRes/xxde_022.png"
+          alt="图标"
+        />
+      </div>
+      <div class="links">
+        <a href="year1.html">Year 1</a>
+        <a href="year2.html">Year 2</a>
+        <a href="year3.html">Year 3</a>
+        <a href="year4.html">Year 4</a>
+      </div>
+      <!-- 搜索框 -->
+      <div class="search-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Search courses..."
+        />
+        <div class="suggestions"></div>
+      </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div class="content">
+      <div class="card">
+        <h1>Welcome to Home Page</h1>
+        <br />
+        <p>This is a teaching resources sharing website for EEE🔧</p>
+        <p>
+          Here you can find links to textbooks and tools that teachers need for
+          each course.
+        </p>
+        <p>Wishing everyone success in your studies!😊</p>
+      </div>
+    </div>
+
+    <!-- 底部背景图片 -->
+    <img
+      src="https://sbd.xmu.edu.cn/images/b_1.jpg"
+      alt="底部图片"
+      class="footer-image"
+    />
+
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        const data = await fetch("course.json").then((response) =>
+          response.json()
+        );
+        const searchInput = document.querySelector(".search-input");
+        const suggestionsBox = document.querySelector(".suggestions");
+
+        // 全局搜索功能
+        searchInput.addEventListener("input", function () {
+          const query = searchInput.value.toLowerCase();
+          suggestionsBox.innerHTML = "";
+          if (query) {
+            const filteredCourses = data.filter(
+              (course) =>
+                course.name.toLowerCase().includes(query) ||
+                course.code.toLowerCase().includes(query)
+            );
+            filteredCourses.forEach((course) => {
+              const suggestion = document.createElement("div");
+              suggestion.textContent = `Year ${course.grade}, Semester ${course.term} - ${course.code} ${course.name}`;
+
+              suggestion.addEventListener("click", () => {
+                const targetURL = `year${course.grade}.html?term=${course.term}&code=${course.code}`;
+                window.location.href = targetURL;
+              });
+
+              suggestionsBox.appendChild(suggestion);
+            });
+            suggestionsBox.style.display = "block";
+          } else {
+            suggestionsBox.style.display = "none";
+          }
+        });
+
+        // 点击搜索框外部时隐藏建议框
+        document.addEventListener("click", function (e) {
+          if (
+            !searchInput.contains(e.target) &&
+            !suggestionsBox.contains(e.target)
+          ) {
+            suggestionsBox.style.display = "none";
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

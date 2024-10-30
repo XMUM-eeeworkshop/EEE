@@ -1,0 +1,1970 @@
+[
+  {
+    "grade": 1,
+    "term": 1,
+    "code": "COM106",
+    "name": "Electrical Engineering",
+    "image": "https://www.zuken.com/us/wp-content/uploads/sites/12/2023/08/zuken-usa-Key-Elements-of-Electrical-Design.png",
+    "references": [
+      {
+        "title": "Allan R Hambley, Electrical Engineering: Principles and Applications, International Edition, Pearson, 2018",
+        "link": "https://books.google.com/books?id=DKSpBwAAQBAJ&dq=Electrical+Engineering:+Principles+and+Applications&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiv2q2u1LKJAxXJSWwGHQmRFUIQ6AF6BAgNEAI"
+      },
+      { "title": "", "link": "" }
+    ],
+    "readings": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 1,
+    "code": "COM108",
+    "name": "Engineering Maths (I)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWT3TgLGMeoJTvdtRAorUkJR1DDJX_el3Yfg&s",
+    "references": [
+      {
+        "title": "James Stewart, Calculus: Early Transcendentals, Cengage Learning, 2020.",
+        "link": "https://books.google.com/books?id=DKSpBwAAQBAJ&dq=Electrical+Engineering:+Principles+and+Applications&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiv2q2u1LKJAxXJSWwGHQmRFUIQ6AF6BAgNEAI"
+      },
+      {
+        "title": "Ron Larson and Bruce H. Edwards, Calculus, Cengage Learning, 2018",
+        "link": ""
+      },
+      {
+        "title": "Joel R. Hass, Christopher E. Heil and Maurice D. Weir, Thomas' Calculus, Pearson, 2018.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "William L. Briggs, Lyle Cochran, Bernard Gillet, Calculus: Early Transcendentals, Pearson, 2019",
+        "link": ""
+      },
+      { "title": "", "link": "" }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 1,
+    "code": "COM102",
+    "name": "Programming Language C",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq2r4Ls2qB9F-xX39Vak2jM27SVJtbVa9yIw&s",
+    "references": [
+      {
+        "title": "Stephan Prata, C primer plus 6th edition. Pearson, USA. (2014)",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Herbert Schildt, C The Complete Reference, Fourth Edition, ISBN-13:  978-0072121247, April 26th 2000, The McGraw-Hill Companies.",
+        "link": ""
+      },
+      { "title": "", "link": "" }
+    ],
+    "tools": [
+      {
+        "title": " CodeBlocks",
+        "link": "https://www.codeblocks.org/downloads/"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 3,
+    "code": "COM107",
+    "name": "Circuits and Devices",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUYEwcyDPlpyKu02C421B0_pyJ-8ZqyXfbg&s",
+    "references": [
+      {
+        "title": "Edward Hughes, John Hiley, Ian McKenzie-Smith, Keith Brown, Hughes Electrical and Electronic Technology (12th Edition), Pearson., 2016.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Alexander C. K., Sadiku M. N. O. Fundamentals of Electric Circuits, 7th Edition.",
+        "link": ""
+      },
+      { "title": "McGraw-Hill, Higher Education, 2022.", "link": "" },
+      {
+        "title": "Boylestad R L., B. A. Olivari, Introductory Circuit Analysis, 14th Edition. Pearson, 2022.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "LTspice",
+        "link": "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 3,
+    "code": "COM103",
+    "name": "Electronic Engineering",
+    "image": "https://www.zuken.com/us/wp-content/uploads/sites/12/2023/08/zuken-usa-Key-Elements-of-Electrical-Design.png",
+    "references": [
+      {
+        "title": "Allan R Hambley, Electrical Engineering: Principles and Applications, International Edition, Pearson, 2018",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      { "title": "", "link": "" }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 3,
+    "code": "COM104",
+    "name": "Engineering Maths (II)",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWT3TgLGMeoJTvdtRAorUkJR1DDJX_el3Yfg&s",
+    "references": [
+      {
+        "title": "Friedberg, Insel, Spence & Spence, Linear Algebra, Pearson, 2019. ",
+        "link": ""
+      },
+      {
+        "title": "Howard Anton, Chris Rorres and Anton Kaul, Elementary Linear Algebra, Wiley, 2019. ",
+        "link": ""
+      },
+      {
+        "title": "Otto Bretscher, Linear Algebra with Applications, Pearson, 2019. ",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "David C. Lay, Stephen R. Lay and Judi J. McDonald, Linear Algebra and Its Applications, Pearson, 2016.",
+        "link": ""
+      },
+      {
+        "title": "C. H. Edwards and David E. Penny, Elementary Linear Algebra, Pearson, 2014. ",
+        "link": ""
+      },
+      {
+        "title": "G. Strang, Linear Algebra and Its Applications, Brooks/Cole, 2006.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 3,
+    "code": "COM105",
+    "name": "Engineering Physics (I)",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240502160218/Physics.webp",
+    "references": [
+      {
+        "title": "University Physics with Modern Physics, 15th Edition by Hugh D Young, Roger Freedman.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Physics for Scientists and Engineers with Modern Physics, 10th edition by Raymond Serway, John Jewett.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": ".",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "COM202",
+    "name": "Engineering Physics Ⅱ",
+    "image": "https://lh6.googleusercontent.com/ni8LmvX_5dD4xCT93ULlYR-d8r1A0QSRNt9NEz-hWkwhZloWp31Eswbr_nqbCm24N68qNP9osI5ImlntaRL9MLMjPyp4VQXvaJBu1pTys9ktXKgDwHavIZn_Sy8TkyriLfizXgFH",
+    "references": [
+      {
+        "title": "Hugh D Young, Roger A Freedman. (2019). University Physics with Modern Physics (15th Edition)",
+        "link": "https://www.andrew.cmu.edu/user/bbji/Desktop/University%20Physics%20with%20Modern%20Physics%2015th%20Edition%20By%20Hugh%20D.%20Young_compressed.pdf"
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "COM210",
+    "name": "Engineering Maths III",
+    "image": "https://th.bing.com/th/id/OIP.aKrs2bSqGCz-5RdbhWRkmwHaHa?w=202&h=202&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "James Stewart. (2015). Calculus (8th Edition) ",
+        "link": ""
+      },
+      {
+        "title": "Asmar, N. H. (2016). Partial differential equations with Fourier series and boundary value problems. Courier Dover Publications.",
+        "link": "https://www.iitg.ac.in/jiten/Extra/Asmar.pdf"
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "EEE203",
+    "name": "Instrumentation",
+    "image": "https://th.bing.com/th/id/OIP.QGZpdNWh0IAty3zckF3dQQHaD4?w=288&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "Robert B. Northrop, Introduction to Instrumentation and Measurements, 3rd Edition, CRC Press, 2017",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "EEE202",
+    "name": "Engineers and Society",
+    "image": "https://aimehq.org/sites/default/files/local/2021-04/Engineering_Socieity%20Min.jpg",
+    "references": [
+      {
+        "title": "C. Fleddermann. 2014. Engineering Ethics.  Pearson Education Limited",
+        "link": ""
+      },
+      {
+        "title": "Code of Professional Conduct, 2016, Board of Malaysia (BEM)",
+        "link": ""
+      },
+      {
+        "title": "Code of Ethics for Engineers, National Society of Professional Engineers (NSPE). ",
+        "link": ""
+      },
+      {
+        "title": "Occupational Safety and Health. Act 1994.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "COM205",
+    "name": "Microelectronic Devices and Circuits",
+    "image": "https://th.bing.com/th/id/OIP.tKSyeYo48Xsyc-KFW9rC2QAAAA?rs=1&pid=ImgDetMain",
+    "references": [
+      {
+        "title": "T.L Floyd, Electronic Devices, 7th edition, Prentice Hall",
+        "link": ""
+      },
+      {
+        "title": "Robert L. Boylestad, Louis Nashelsky, Electronic Devices and Circuit Theory, 11th Edition, Pearson",
+        "link": ""
+      },
+      {
+        "title": "Robert T. Paynter, Introductory Electronic Devices and Circuits, 6th Edition, Prentice Hall",
+        "link": ""
+      },
+      {
+        "title": "Donald A. Neamen, Microelectronics: Circuit Analysis and Design, 4th Edition, McGraw-Hill",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "Multisim", "link": "https://www.multisim.com/" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "EEE211",
+    "name": "Data structure",
+    "image": "https://th.bing.com/th/id/OIP.J38nYZU7gzu-4lQmtjlSUwHaEK?w=302&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "Richard F. Gilberg and Behrouz A. Forouzan. Data Structures: A Pseudocode Approach with C++, 2nd edition. Cengage Learning, 2004.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Mark Allen Weiss. Data Structures & algorithm analysis in C++, 4st edition. Prentice Hall, 2013.",
+        "link": ""
+      },
+      {
+        "title": "Mark Allen Weiss. Data Structures and Algorithms Analysis in C, China Machine Press, 2015.",
+        "link": ""
+      },
+      {
+        "title": "Peter Brass. Advanced Data Structures. Cambridge University Press, 2014",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "CodeBlocks",
+        "link": "https://www.codeblocks.org/downloads/"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 1,
+    "code": "EEE312",
+    "name": "Programming Practice",
+    "image": "https://th.bing.com/th/id/OIP.zpo5YzVTR2hp3jmIOQjSAAHaEK?w=298&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "S. Nomura, C Programming and Numerical Analysis: An Introduction, Morgan & Claypool Publishers 2018. ",
+        "link": "https://www.google.com.my/books/edition/C_Programming_and_Numerical_Analysis/l4JyEAAAQBAJ?hl=zh-CN&gbpv=0"
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "S. Salleh, A. Zomaya, S. Bakar, Computing for Numerical Methods Using Visual C++, Wiley Interscience 2007",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "Codeblocks",
+        "link": "https://www.codeblocks.org/downloads/"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 3,
+    "code": "COM203 ",
+    "name": "Computer Architecture",
+    "image": "https://th.bing.com/th/id/OIP.Qs11I0oLSDxBiFcAQCXt5wHaEK?w=298&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "John L. Hennessy, David A. Patterson (2017) Computer Architecture: A Quantitative Approach, 6th Edition. Morgan Kaufmann",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "Mars",
+        "link": "https://l.xmu.edu.my/mod/resource/view.php?id=541024"
+      },
+      {
+        "title": "JAVA",
+        "link": "https://www.oracle.com/java/technologies/downloads/#jdk22-windows"
+      }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 3,
+    "code": "COM207",
+    "name": "Digital Electronics",
+    "image": "https://th.bing.com/th/id/OIP.fnw2Un0em-mzJw1jB_t-CgHaHa?w=178&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "Thomas L. Floyd (2014). Digital Fundamentals (11th ed.). Prentice-Hall.",
+        "link": "https://www.google.com.my/books/edition/Digital_Fundamentals_11th_Edition_by_Pea/-g_CDwAAQBAJ?hl=zh-CN"
+      },
+      {
+        "title": "Ronald J. Tocci, Digital Systems, Principles and Applications, 12th Edition, Perason.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "Logisim",
+        "link": "https://sourceforge.net/projects/circuit/"
+      },
+      { "title": "Multisim", "link": "https://www.multisim.com/" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 3,
+    "code": "COM209",
+    "name": "Engineering Maths (V) ",
+    "image": "https://th.bing.com/th/id/OIP.OTOjSKr2CbNhFm3f_AU--wHaGn?w=202&h=181&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "John A. Gubner. (2012) Probability and Random Processes for Electrical and Computer Engineers. Cambridge University Press.",
+        "link": ""
+      },
+      {
+        "title": "Wang, Jindong & Chen, Yiqiang & Hao, Shuji & Peng, Xiaohui & Lisha, Hu. (2017). Deep Learning for Sensor-based Activity Recognition: A Survey. Pattern Recognition Letters.10.1016/j.patrec.2018.02.010.",
+        "link": ""
+      },
+      {
+        "title": "Paxson, Vern & Floyd, Sally (1995). Wide-Area Traffic: The Failure of Poisson Modeling. Networking, IEEE/ACM Transactions on.3.226 244.10.1109/90.392383.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 3,
+    "code": "EEE313",
+    "name": "Semiconductor Physics and Device Processes",
+    "image": "https://th.bing.com/th/id/OIP.et5p9eA4XRgzR3hwkIwS5QHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "S. M. Sze, Y. Li, K. K. Ng, Physics of Semiconductor Devices, 4th Ed. Wiley 2019",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 3,
+    "code": "EEE301",
+    "name": "Signals and Systems",
+    "image": "https://th.bing.com/th/id/OIP.ZD3rtLcDGM16s21p_XWRRwHaHa?w=203&h=203&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+    "references": [
+      {
+        "title": "Oppenheim, A. V., and A. S. Willsky, with S. H. Nawab (2022). Signals and Systems, 2nd Edition. Pearson.",
+        "link": ""
+      },
+      {
+        "title": "Hsu, H. P. (2020). Schaum's Outline of Signals and Systems, 4th Edition. United States: McGraw Hill LLC.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Michael. J Robert. Signals and Systems: Analysis Using Transform Methods & MATLAB 3rd Edition, McGraw-Hill Science 2017.",
+        "link": ""
+      },
+      {
+        "title": "Mrinal Manal, Amir Asif (2007). Continuous and Discrete Time Signals and Systems, Cambridge University Press.",
+        "link": ""
+      },
+      {
+        "title": "Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab, et al. Signals Systems and Computer Explorations in Signals, Prentice-Hall, 2003.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "MATLAB",
+        "link": "https://www.mathworks.com/products/matlab/student.html"
+      },
+      { "title": "GNU Octave", "link": "https://octave.org/download" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE303",
+    "name": "Electrical Machinery and Drive ",
+    "image": "https://img.machinedesign.com/files/base/ebm/machinedesign/image/2019/03/machinedesign_7037_mf3_phase_promo_1.png?auto=format,compress&fit=fill&fill=blur&w=1200&h=630",
+    "references": [
+      {
+        "title": "Atif Iqbal, Shaikh Moinoddin, Bhimireddy Prathap Reddy. 'Electrical Machine Fundamentals with Numerical Simulation using MATLAB/SIMULINK'. 1st edition. Wiley. 2021.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Bhattacharya S.K. 'Electrical Machines'. 3rd ed. Tata McGraw-Hill. 2014. ",
+        "link": ""
+      },
+      {
+        "title": "Wildi, T. 'Electrical Machine, Drives and Power System'. Prentice-Hall. 2015.",
+        "link": ""
+      },
+      {
+        "title": "Stephen J. Chapman. 'Electric Machinery Fundamentals'. 5th edition. McGraw-Hill. 2012.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE319",
+    "name": "Control System",
+    "image": "https://www.mwes.com/wp-content/uploads/Electronics-1024x521.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE302",
+    "name": "Electromagnetic Field Theory and Waves",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS34lIdQuLrQV37kDvTjnG_mk6MxyiyXeaqHw&s",
+    "references": [
+      {
+        "title": "Sadiku,M. & Nelatury,S. (2021), Element of Electromagnetics (7th Edition), Oxford: Oxford University Press ",
+        "link": ""
+      },
+      {
+        "title": "Hayt, W. & Buck, J. (2019) Engineering Electromagnetics (9th Edition). New York: McGrawhill Education ",
+        "link": ""
+      },
+      {
+        "title": "Ulaby, F. & Ravaioli, U. (2020) Fundamentals of Applied Electromagnetics (8th Edition). Essex: Pearson Education Ltd.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Cheng,D.K (2013), Field and Wave Electromagnetics, Essex: Pearson Education Ltd. 2. Pozar, D. (2011), Microwave Engineering, (4th edition), New York: John Wiley & Sons",
+        "link": ""
+      },
+      {
+        "title": "(2011), Microwave Engineering, (4th edition), New York: John Wiley & Sons",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "QuickSmith", "link": "https://quicksmith.online/" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE316",
+    "name": "Engineering Management",
+    "image": "https://techharena.com/wp-content/uploads/2024/06/How-Effective-Engineering-Management-Enhances-Business-Outcomes.png",
+    "references": [
+      {
+        "title": "C. M. Chang, Engineering Management: Meeting the Global Challenges, 2016, CRC Press",
+        "link": ""
+      },
+      {
+        "title": "Stephen P. Robbins, Mary A. Coulter, Management, 2017, Pearson Education Limited",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE304",
+    "name": "High Voltage Engineering",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Plasma-filaments.jpg",
+    "references": [
+      {
+        "title": " E. Kuffel, W.S. Zaengl, J. Kuffel. (2016). 'High Voltage Engineering: Fundamentals', Newness.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "S. Naidu & V. Kamaraju, “High Voltage Engineering”, McGrawHill, 2013.",
+        "link": ""
+      },
+      {
+        "title": "Subir Ray. (2013). 'An Introduction to High Voltage Engineering', Prentice-Hall of India. ",
+        "link": ""
+      },
+      {
+        "title": "C.L. Wadhwa. (2010). 'High Voltage Engineering'. New Age International.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "QuickField", "link": "https://quickfield.com/free_soft.htm" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE323",
+    "name": "Digital Signal Processing",
+    "image": "https://talkpod.com/cdn/shop/articles/WeChatc18bd10ff73e2732f66fba6a5c1d9e30.jpg?v=1710943758&width=2048",
+    "references": [
+      {
+        "title": "Robert J. Schilling and Sandra L. Harris, Digital Signal Processing Using MATLAB, Cengage Learning, Third Edition, 2017",
+        "link": ""
+      },
+      {
+        "title": "Vinay K. Ingle, John G. Proakis, Digital Signal Processing Using MATLAB, 3rd Edition Cengage Learning, 2011",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "Matlab",
+        "link": "https://www.mathworks.com/products/matlab/student.html"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 1,
+    "code": "EEE327",
+    "name": "Power Quality",
+    "image": "https://www.eskom.co.za/eas/wp-content/uploads/2021/04/Power-Factor1.jpg",
+    "references": [
+      {
+        "title": "P. Sivaraman, C. Sharmeela, Jens Bo Holm-Nielsen, P. Sivaraman, Power Quality in Modern Power Systems, 1st Edition, 2020, Imprint: Academic Press, Paperback ISBN: 9780128233467.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Electrical Power Systems Quality, Third Edition 3rd Edition, by Roger Dugan, Mark McGranaghan, Surya Santoso, H. Wayne Beatys, McGraw Hill, 2012. ",
+        "link": ""
+      },
+      {
+        "title": "Power System Quality Assessment, by Jos Arrillaga, Neville R. Watson, S. Chen, ISBN: 978-0-471-98865-6, Wiley, 2000.",
+        "link": ""
+      }
+    ],
+    "tools": [
+      {
+        "title": "Matlab",
+        "link": "https://www.mathworks.com/products/matlab/student.html"
+      },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 3,
+    "code": "EEE305",
+    "name": "Embedded Systems",
+    "image": "https://www.velvetech.com/wp-content/uploads/2023/03/types-of-embedded-systems-fb.png",
+    "references": [
+      {
+        "title": "Sepehr Naimi. The AVR Microcontroller and Embedded Systems Using Assembly and C: Using Arduino Uno and AtmelStudio.2nd Edition. Pearson Education.2017.",
+        "link": ""
+      },
+      {
+        "title": "Alexander G Dean. Embedded Systems Fundamentals with ARM Cortex-M based Microcontrollers: A Practical Approach. First Edition. ARM Education Media.2017.",
+        "link": ""
+      },
+      {
+        "title": "Marilyn Wolf, Embedded System Interfacing. First Edition. Elsevier. 2019.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 3,
+    "code": "EEE322",
+    "name": "Power Electronics",
+    "image": "https://media.licdn.com/dms/image/D5612AQEQ98toRJFUyw/article-cover_image-shrink_600_2000/0/1711430770901?e=2147483647&v=beta&t=ga7SimcFnvBPWijt4FkPgTXaUqvD_Iss5BWQFJJeRac",
+    "references": [
+      {
+        "title": "Muhammad H. Rashid, Power Electronics Circuits Devices and Applications, Fourth edition, Pearson2014",
+        "link": ""
+      },
+      {
+        "title": "Vinod Kumar, Power Electronics, Drives, and Advanced Applications 1st Edition CRC Press 2020Andrzej M. Trzynadlowski, Introduction to Modern Power Electronics, 3rd Edition, Wiley2015",
+        "link": ""
+      },
+      {
+        "title": "M D Singhu, M D Singhu, Power Electronics, 2ndedition, Tsinghua university press, 2011.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 3,
+    "code": "EEE401",
+    "name": "Statistical and Numerical Techniques",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXsUVvhf2HsH_ATDjBfcLQM331Vq-8sGKTRw&s",
+    "references": [
+      {
+        "title": "Douglas C. Montgomery, George C. Runger. Applied Statistics and Probability for Engineers, 7th Edition, 2018",
+        "link": ""
+      },
+      {
+        "title": "Steven C. Chapra. Applied Numerical Methods with MATLAB for Engineers and Scientists, McGraw-Hill Education, 4th Edition, 2017.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Nemadjieu Simplice Firm. Mathematics: Numerical Analysis and Scientific Computing LAP Lambert Academic Publishing, 2012",
+        "link": ""
+      },
+      {
+        "title": "Richard L. Burden, J. Douglas Faires. Numerical Analysis, 9th Edition, Brooks Cole, 2010",
+        "link": ""
+      },
+      {
+        "title": "J. Devore and N. Farnum, Applied Statistics for Engineers and Scientists, 2nd Edition,2005",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 1,
+    "code": "EEE406",
+    "name": "Power Systems Analysis",
+    "image": "https://www.studyforfe.com/wp-content/uploads/2024/07/Power-System-Analysis-in-PE-Power-Study-Guide-1024x481.png",
+    "references": [
+      {
+        "title": "VENKATESH, P., MANIKANDAN, B. V., RAJA, S. C., SRINIVASAN, A. (2012). ELECTRICAL POWER SYSTEMS: ANALYSIS, SECURITY AND DEREGULATION.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 1,
+    "code": "EEE411",
+    "name": "Communication System",
+    "image": "https://cdn1.byjus.com/wp-content/uploads/2021/04/Communication-Systems-01.png",
+    "references": [
+      {
+        "title": "Sunil Bhooshan, Fundamentals of Analogue and Digital Communication Systems, 1st Edition, Springer, 2021.",
+        "link": ""
+      },
+      {
+        "title": "John G. Proakis, Masoud Salehi. Fundamentals of Communication Systems, 2nd Edition. Prentice Hall, 2014.",
+        "link": ""
+      },
+      {
+        "title": "Rodger E. Ziemer, William H. Principles of Communications, 7th Edition. Tranter Wiley, 2014.",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "V.K. Khanna, Digital communications, S. Chand Publisher Co Ltd2010.",
+        "link": ""
+      },
+      {
+        "title": "David Tse, Pramod Viswanat. Fundamentals of Wireless Communication, 1st Edition. Cambridge University Press, 2013. ",
+        "link": ""
+      },
+      {
+        "title": "Simon Haykin. Digital Communication Systems. Wiley, 2013",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 1,
+    "code": "EEE407",
+    "name": "Electrical Energy Utilization",
+    "image": "https://play-lh.googleusercontent.com/ZF5YBfpL-cDFw3KGFMkD_qAEM4m8yQKPvitX7dRemmX6VxKaV8u5MdRUbXp73zjgSmk",
+    "references": [
+      {
+        "title": "Frank Kreith and D. Yogi Goswami, Energy Management and Conservation Handbook, CRC Press, 2017.",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "Wayne C. Turner, Energy Management Handbook, Fairmont Press Inc,2017.",
+        "link": ""
+      },
+      {
+        "title": "Kementerian Tenaga, Teknologi Hijau dan Air, The Energy Efficiency and Conservation Guidelines Part 1: Electrical Energy-use Equipment, 2011",
+        "link": ""
+      },
+      {
+        "title": "Brain Scaddan, Electrical installation Work, 9th Edition, RoutledgeBrian2018",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 2,
+    "code": "YYH101",
+    "name": "Genshin Impact",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/9/94/Genshin_Impact.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 2,
+    "code": "YYH102",
+    "name": "Arknights",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Arknights_icon.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 2,
+    "code": "YYH103",
+    "name": "Honor of Kings",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 2,
+    "code": "YYH104",
+    "name": "Teamfight Tactics",
+    "image": "https://pp.myapp.com/ma_icon/0/icon_54152245_1727368439/256",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 1,
+    "term": 2,
+    "code": "YYH105",
+    "name": "Honkai: Star Rail",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/1/11/Honkai%EF%BC%9AStar_Rail%E5%B4%A9%E5%A3%9E%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 2,
+    "code": "YYH201",
+    "name": "Genshin Impact",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/9/94/Genshin_Impact.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 2,
+    "code": "YYH202",
+    "name": "Arknights",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Arknights_icon.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 2,
+    "code": "YYH203",
+    "name": "Honor of Kings",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 2,
+    "code": "YYH204",
+    "name": "Teamfight Tactics",
+    "image": "https://pp.myapp.com/ma_icon/0/icon_54152245_1727368439/256",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 2,
+    "term": 2,
+    "code": "YYH205",
+    "name": "Honkai: Star Rail",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/1/11/Honkai%EF%BC%9AStar_Rail%E5%B4%A9%E5%A3%9E%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 2,
+    "code": "YYH301",
+    "name": "Genshin Impact",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/9/94/Genshin_Impact.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 2,
+    "code": "YYH302",
+    "name": "Arknights",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Arknights_icon.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 2,
+    "code": "YYH303",
+    "name": "Honor of Kings",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 2,
+    "code": "YYH304",
+    "name": "Teamfight Tactics",
+    "image": "https://pp.myapp.com/ma_icon/0/icon_54152245_1727368439/256",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 3,
+    "term": 2,
+    "code": "YYH305",
+    "name": "Honkai: Star Rail",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/1/11/Honkai%EF%BC%9AStar_Rail%E5%B4%A9%E5%A3%9E%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 2,
+    "code": "YYH401",
+    "name": "Genshin Impact",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/9/94/Genshin_Impact.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 2,
+    "code": "YYH402",
+    "name": "Arknights",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Arknights_icon.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 2,
+    "code": "YYH403",
+    "name": "Honor of Kings",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 2,
+    "code": "YYH404",
+    "name": "Teamfight Tactics",
+    "image": "https://pp.myapp.com/ma_icon/0/icon_54152245_1727368439/256",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 2,
+    "code": "YYH405",
+    "name": "Honkai: Star Rail",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/1/11/Honkai%EF%BC%9AStar_Rail%E5%B4%A9%E5%A3%9E%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 3,
+    "code": "YYH411",
+    "name": "Genshin Impact",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/9/94/Genshin_Impact.jpg",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 3,
+    "code": "YYH412",
+    "name": "Arknights",
+    "image": "https://upload.wikimedia.org/wikipedia/en/a/aa/Arknights_icon.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 3,
+    "code": "YYH413",
+    "name": "Honor of Kings",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQut49y9vaQ1bKyVoyOylzo3fjOXlrdXfkCrQ&s",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 3,
+    "code": "YYH414",
+    "name": "Teamfight Tactics",
+    "image": "https://pp.myapp.com/ma_icon/0/icon_54152245_1727368439/256",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  },
+  {
+    "grade": 4,
+    "term": 3,
+    "code": "YYH415",
+    "name": "Honkai: Star Rail",
+    "image": "https://upload.wikimedia.org/wikipedia/zh/1/11/Honkai%EF%BC%9AStar_Rail%E5%B4%A9%E5%A3%9E%EF%BC%9A%E6%98%9F%E7%A9%B9%E9%90%B5%E9%81%93.png",
+    "references": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "readings": [
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "link": ""
+      }
+    ],
+    "tools": [
+      { "title": "", "link": "" },
+      { "title": "", "link": "" }
+    ]
+  }
+]
