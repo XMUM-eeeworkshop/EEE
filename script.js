@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     10
   );
 
-  // 筛选出当前页面的年级课程
-  const currentGradeCourses = data.filter(
-    (course) => course.grade === currentGrade
-  );
+  // 筛选并排序出当前页面的年级课程
+  const currentGradeCourses = data
+    .filter((course) => course.grade === currentGrade)
+    .sort((a, b) => a.term - b.term || a.code.localeCompare(b.code));
 
   // 动态创建课程块
   currentGradeCourses.forEach((course) => {
@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const courseSection = document.createElement("div");
     courseSection.classList.add("course-section");
     courseSection.setAttribute("data-semester", semester);
+    courseSection.setAttribute("data-code", course.code);
     courseSection.innerHTML = `
       <div class="course-header">
         <div class="course-info">
@@ -76,6 +77,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         const suggestion = document.createElement("div");
         suggestion.textContent = `Year ${course.grade}, Semester ${course.term} - ${course.code} ${course.name}`;
 
+        // 点击建议后跳转并传递参数
         suggestion.addEventListener("click", () => {
           const targetURL = `year${course.grade}.html?term=${course.term}&code=${course.code}`;
           window.location.href = targetURL;
@@ -121,6 +123,15 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (link.textContent.trim() === "Homepage") return;
 
       e.preventDefault();
+
+      // 折叠所有已展开的课程内容
+      document.querySelectorAll(".expandable-content").forEach((content) => {
+        content.style.maxHeight = null;
+      });
+      document.querySelectorAll(".toggle-button").forEach((button) => {
+        button.textContent = "Show details";
+      });
+
       paginationLinks.forEach((el) => el.classList.remove("active"));
       this.classList.add("active");
 
@@ -131,12 +142,15 @@ document.addEventListener("DOMContentLoaded", async function () {
             ? "block"
             : "none";
       });
+
+      // 自动滚动到顶部
+      window.scrollTo(0, 0);
     });
   });
 
   document.querySelector(".pagination a.active").click();
 
-  // URL 参数自动展开对应课程
+  // URL 参数自动展开对应课程并置顶
   const urlParams = new URLSearchParams(window.location.search);
   const term = urlParams.get("term");
   const code = urlParams.get("code");
@@ -149,7 +163,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
     });
 
-    const observer = new MutationObserver(() => {
+    // 等待页面加载完成后自动展开指定课程并置顶
+    const targetCourseInterval = setInterval(() => {
       const targetCourse = Array.from(
         document.querySelectorAll(".course-section")
       ).find((course) =>
@@ -157,33 +172,26 @@ document.addEventListener("DOMContentLoaded", async function () {
       );
 
       if (targetCourse) {
-        targetCourse.scrollIntoView({ behavior: "smooth", block: "center" });
+        clearInterval(targetCourseInterval); // 找到后清除定时器
+
+        // 设置偏移量以确保课程内容出现在顶部附近
+        const yOffset = -100; // 设置偏移量，确保目标课程稍微靠下展示
+        const yPosition =
+          targetCourse.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+
+        window.scrollTo({
+          top: yPosition,
+          behavior: "smooth",
+        });
+
+        // 展开课程内容
         const toggleButton = targetCourse.querySelector(".toggle-button");
-        if (toggleButton.textContent === "Show details") toggleButton.click();
-        observer.disconnect();
+        if (toggleButton && toggleButton.textContent === "Show details") {
+          toggleButton.click();
+        }
       }
-    });
-    observer.observe(document.querySelector(".course-container"), {
-      childList: true,
-      subtree: true,
-    });
+    }, 100); // 检查间隔
   }
-  paginationLinks.forEach((link) => {
-    link.addEventListener("click", function (e) {
-      if (link.textContent.trim() === "Homepage") return;
-
-      e.preventDefault();
-      window.scrollTo(0, 0); // 添加此行代码使页面滚动到顶部
-      paginationLinks.forEach((el) => el.classList.remove("active"));
-      this.classList.add("active");
-
-      const selectedSemester = this.textContent.trim();
-      document.querySelectorAll(".course-section").forEach((section) => {
-        section.style.display =
-          section.getAttribute("data-semester") === selectedSemester
-            ? "block"
-            : "none";
-      });
-    });
-  });
 });
