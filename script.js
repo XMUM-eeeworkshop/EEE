@@ -150,6 +150,28 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   document.querySelector(".pagination a.active").click();
 
+  // 动态调整 yOffset
+  function calculateYOffset() {
+    // 基础偏移量，可根据需要调整
+    const baseYOffset = -120;
+
+    // 根据窗口高度调整偏移量比例
+    const scale = window.innerHeight * 0.05;
+    return baseYOffset - scale;
+  }
+
+  // 滚动到目标课程位置
+  function scrollToTarget(targetCourse) {
+    const yOffset = calculateYOffset();
+    const yPosition =
+      targetCourse.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+    window.scrollTo({
+      top: yPosition,
+      behavior: "smooth",
+    });
+  }
+
   // URL 参数自动展开对应课程并置顶
   const urlParams = new URLSearchParams(window.location.search);
   const term = urlParams.get("term");
@@ -173,17 +195,8 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (targetCourse) {
         clearInterval(targetCourseInterval); // 找到后清除定时器
 
-        // 计算目标课程位置并滚动到视口顶部
-        const yOffset = -130; // 根据导航栏的高度调整偏移量
-        const yPosition =
-          targetCourse.getBoundingClientRect().top +
-          window.pageYOffset +
-          yOffset;
-
-        window.scrollTo({
-          top: yPosition,
-          behavior: "smooth",
-        });
+        // 使用动态偏移量滚动到目标位置
+        scrollToTarget(targetCourse);
 
         // 展开课程内容
         const toggleButton = targetCourse.querySelector(".toggle-button");
