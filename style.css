@@ -5,7 +5,7 @@ body {
   background-color: #f4f4f9;
   color: #333;
   line-height: 1.6;
-  min-height: 150vh; /* 使页面高度至少为1.5倍视口高度，确保可滚动 */
+  min-height: 200vh; /* 使页面高度至少为1.5倍视口高度，确保可滚动 */
 }
 
 .navbar {
@@ -212,30 +212,44 @@ body {
 }
 
 .pagination {
-  text-align: center;
-  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #0062e6, #33aeff); /* 导航栏的背景色 */
+  width: auto;
+  padding: 5px 10px;
+  border-radius: 8px; /* 设置圆角，与导航栏一致 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 .pagination a {
-  color: #333;
-  padding: 10px 15px;
-  text-decoration: none;
-  border: 1px solid #ddd;
-  margin: 0 5px;
-  border-radius: 4px;
-  cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.pagination a.active {
-  background-color: #33aeff;
   color: white;
-  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2); /* 导航栏链接背景 */
+  border-radius: 5px;
+  transition: background 0.3s, transform 0.2s;
 }
 
 .pagination a:hover {
-  background-color: #33aeff;
+  background-color: rgba(255, 255, 255, 0.3); /* 悬停效果，与导航栏一致 */
+  transform: scale(1.05);
 }
+
+.pagination a.active {
+  background-color: #8ec7ff;
+  color: white;
+  border: 2px solid #ffffff72; /* 激活状态，与导航栏一致 */
+}
+
 .footer-image {
   position: fixed;
   bottom: 0;

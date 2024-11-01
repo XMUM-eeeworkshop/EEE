@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   // 动态创建课程块
   currentGradeCourses.forEach((course) => {
-    const semester = `Semester ${course.term}`;
+    const semester = `SEM${course.term}`;
     const referencesHTML = course.references
       .map((ref) =>
         ref.link
@@ -47,19 +47,19 @@ document.addEventListener("DOMContentLoaded", async function () {
     courseSection.setAttribute("data-semester", semester);
     courseSection.setAttribute("data-code", course.code);
     courseSection.innerHTML = `
-      <div class="course-header">
-        <div class="course-info">
-          <img class="course-image" src="${course.image}" alt="Course Image" />
-          <h1 class="course-title">${course.code} ${course.name}</h1>
-        </div>
-        <button class="toggle-button">Show details</button>
-      </div>
-      <div class="expandable-content">
-        <p><strong>Reference Books:</strong><br>${referencesHTML}</p>
-        <p><strong>Further Readings:</strong><br>${readingsHTML}</p>
-        <p><strong>Tools Needed:</strong><br>${toolsHTML}</p>
-      </div>
-    `;
+            <div class="course-header">
+                <div class="course-info">
+                    <img class="course-image" src="${course.image}" alt="Course Image" />
+                    <h1 class="course-title">${course.code} ${course.name}</h1>
+                </div>
+                <button class="toggle-button">Show details</button>
+            </div>
+            <div class="expandable-content">
+                <p><strong>Reference Books:</strong><br>${referencesHTML}</p>
+                <p><strong>Further Readings:</strong><br>${readingsHTML}</p>
+                <p><strong>Tools Needed:</strong><br>${toolsHTML}</p>
+            </div>
+        `;
     courseContainer.appendChild(courseSection);
   });
 
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       );
       filteredCourses.forEach((course) => {
         const suggestion = document.createElement("div");
-        suggestion.textContent = `Year ${course.grade}, Semester ${course.term} - ${course.code} ${course.name}`;
+        suggestion.textContent = `Year ${course.grade}, SEM${course.term} - ${course.code} ${course.name}`;
 
         // 点击建议后跳转并传递参数
         suggestion.addEventListener("click", () => {
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const paginationLinks = document.querySelectorAll(".pagination a");
   paginationLinks.forEach((link) => {
     link.addEventListener("click", function (e) {
-      if (link.textContent.trim() === "Homepage") return;
+      if (link.textContent.trim() === "HOME") return; // 如果是主页按钮则跳过
 
       e.preventDefault();
 
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   if (term && code) {
     paginationLinks.forEach((link) => {
-      if (link.textContent.trim() === `Semester ${term}`) {
+      if (link.textContent.trim() === `SEM${term}`) {
         link.classList.add("active");
         link.click();
       }
@@ -170,28 +170,11 @@ document.addEventListener("DOMContentLoaded", async function () {
       ).find((course) =>
         course.querySelector(".course-title").textContent.includes(code)
       );
-
       if (targetCourse) {
-        clearInterval(targetCourseInterval); // 找到后清除定时器
-
-        // 设置偏移量以确保课程内容出现在顶部附近
-        const yOffset = -100; // 设置偏移量，确保目标课程稍微靠下展示
-        const yPosition =
-          targetCourse.getBoundingClientRect().top +
-          window.pageYOffset +
-          yOffset;
-
-        window.scrollTo({
-          top: yPosition,
-          behavior: "smooth",
-        });
-
-        // 展开课程内容
-        const toggleButton = targetCourse.querySelector(".toggle-button");
-        if (toggleButton && toggleButton.textContent === "Show details") {
-          toggleButton.click();
-        }
+        targetCourse.scrollIntoView({ behavior: "smooth" });
+        targetCourse.querySelector(".toggle-button").click();
+        clearInterval(targetCourseInterval);
       }
-    }, 100); // 检查间隔
+    }, 100);
   }
 });
