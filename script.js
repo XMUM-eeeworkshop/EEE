@@ -171,9 +171,25 @@ document.addEventListener("DOMContentLoaded", async function () {
         course.querySelector(".course-title").textContent.includes(code)
       );
       if (targetCourse) {
-        targetCourse.scrollIntoView({ behavior: "smooth" });
-        targetCourse.querySelector(".toggle-button").click();
-        clearInterval(targetCourseInterval);
+        clearInterval(targetCourseInterval); // 找到后清除定时器
+
+        // 计算目标课程位置并滚动到视口顶部
+        const yOffset = -130; // 根据导航栏的高度调整偏移量
+        const yPosition =
+          targetCourse.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+
+        window.scrollTo({
+          top: yPosition,
+          behavior: "smooth",
+        });
+
+        // 展开课程内容
+        const toggleButton = targetCourse.querySelector(".toggle-button");
+        if (toggleButton && toggleButton.textContent === "Show details") {
+          toggleButton.click();
+        }
       }
     }, 100);
   }
