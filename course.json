@@ -8,7 +8,7 @@
     "references": [
       {
         "title": "Allan R Hambley, Electrical Engineering: Principles and Applications, International Edition, Pearson, 2018",
-        "link": "https://books.google.com/books?id=DKSpBwAAQBAJ&dq=Electrical+Engineering:+Principles+and+Applications&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiv2q2u1LKJAxXJSWwGHQmRFUIQ6AF6BAgNEAI"
+        "link": "https://www.pearson.com/se/Nordics-Higher-Education/subject-catalogue/engineering/Hambley-Electrical-Engineering-Principles-Applications.html"
       },
       { "title": "", "link": "" }
     ],
@@ -30,15 +30,15 @@
     "references": [
       {
         "title": "James Stewart, Calculus: Early Transcendentals, Cengage Learning, 2020.",
-        "link": "https://books.google.com/books?id=DKSpBwAAQBAJ&dq=Electrical+Engineering:+Principles+and+Applications&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwiv2q2u1LKJAxXJSWwGHQmRFUIQ6AF6BAgNEAI"
-      },
-      {
-        "title": "Ron Larson and Bruce H. Edwards, Calculus, Cengage Learning, 2018",
-        "link": ""
+        "link": "https://www.cengageasia.com/title/default/detail?isbn=9780357113516"
       },
       {
         "title": "Joel R. Hass, Christopher E. Heil and Maurice D. Weir, Thomas' Calculus, Pearson, 2018.",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/thomas-calculus/P200000006210/9780137442997"
+      },
+      {
+        "title": "Ron Larson and Bruce H. Edwards, Calculus, Cengage Learning, 2018",
+        "link": "https://au.cengage.com/c/ebook-calculus-11e-larson-edwards/9781337654265/"
       }
     ],
     "readings": [
@@ -62,7 +62,7 @@
     "references": [
       {
         "title": "Stephan Prata, C primer plus 6th edition. Pearson, USA. (2014)",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/c-primer-plus/P200000000546/9780133432381"
       },
       {
         "title": "",
@@ -93,7 +93,7 @@
     "references": [
       {
         "title": "Edward Hughes, John Hiley, Ian McKenzie-Smith, Keith Brown, Hughes Electrical and Electronic Technology (12th Edition), Pearson., 2016.",
-        "link": ""
+        "link": "https://www.pearson.com/en-gb/subject-catalog/p/hughes-electrical-and-electronic-technology/P200000004514/9781292134598"
       },
       {
         "title": "",
@@ -128,7 +128,7 @@
     "references": [
       {
         "title": "Allan R Hambley, Electrical Engineering: Principles and Applications, International Edition, Pearson, 2018",
-        "link": ""
+        "link": "https://www.pearson.com/se/Nordics-Higher-Education/subject-catalogue/engineering/Hambley-Electrical-Engineering-Principles-Applications.html"
       },
       {
         "title": "",
@@ -160,15 +160,15 @@
     "references": [
       {
         "title": "Friedberg, Insel, Spence & Spence, Linear Algebra, Pearson, 2019. ",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/linear-algebra/P200000006185/9780137515424"
       },
       {
         "title": "Howard Anton, Chris Rorres and Anton Kaul, Elementary Linear Algebra, Wiley, 2019. ",
-        "link": ""
+        "link": "https://www.wiley.com/en-us/Elementary+Linear+Algebra%2C+Applications+Version%2C+12th+Edition-p-9781119643623"
       },
       {
         "title": "Otto Bretscher, Linear Algebra with Applications, Pearson, 2019. ",
-        "link": ""
+        "link": "https://www.amazon.com/Linear-Algebra-Application-Otto-Bretscher/dp/9353433045"
       }
     ],
     "readings": [
@@ -198,8 +198,8 @@
     "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240502160218/Physics.webp",
     "references": [
       {
-        "title": "University Physics with Modern Physics, 15th Edition by Hugh D Young, Roger Freedman.",
-        "link": ""
+        "title": "Hugh D Young, Roger A Freedman. (2019). University Physics with Modern Physics (15th Edition)",
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/university-physics-with-modern-physics/P200000006855/9780136874331"
       },
       {
         "title": "",
@@ -234,7 +234,7 @@
     "references": [
       {
         "title": "Hugh D Young, Roger A Freedman. (2019). University Physics with Modern Physics (15th Edition)",
-        "link": "https://www.andrew.cmu.edu/user/bbji/Desktop/University%20Physics%20with%20Modern%20Physics%2015th%20Edition%20By%20Hugh%20D.%20Young_compressed.pdf"
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/university-physics-with-modern-physics/P200000006855/9780136874331"
       },
       {
         "title": "",
@@ -265,7 +265,7 @@
     "references": [
       {
         "title": "James Stewart. (2015). Calculus (8th Edition) ",
-        "link": ""
+        "link": "https://www.cengageasia.com/title/default/detail?isbn=9780357113516"
       },
       {
         "title": "Asmar, N. H. (2016). Partial differential equations with Fourier series and boundary value problems. Courier Dover Publications.",
@@ -296,7 +296,7 @@
     "references": [
       {
         "title": "Robert B. Northrop, Introduction to Instrumentation and Measurements, 3rd Edition, CRC Press, 2017",
-        "link": ""
+        "link": "https://www.routledge.com/Introduction-to-Instrumentation-and-Measurements/Northrop/p/book/9781138071902?srsltid=AfmBOorXMyRSV9Wkm_iZTmxgMB29oxDRHvZaXTnm3RvwjPw3wulzTnPx"
       },
       {
         "title": "",
@@ -327,19 +327,19 @@
     "references": [
       {
         "title": "C. Fleddermann. 2014. Engineering Ethics.  Pearson Education Limited",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/engineering-ethics/P200000003404/9780137848263"
       },
       {
         "title": "Code of Professional Conduct, 2016, Board of Malaysia (BEM)",
-        "link": ""
+        "link": "http://bem.org.my/code-of-professional-conduct"
       },
       {
         "title": "Code of Ethics for Engineers, National Society of Professional Engineers (NSPE). ",
-        "link": ""
+        "link": "https://www.nspe.org/resources/ethics/code-ethics"
       },
       {
         "title": "Occupational Safety and Health. Act 1994.",
-        "link": ""
+        "link": "https://legal.usm.my/phocadownload/laws/Occupational%20Safety%20and%20Health%20Act%20-%20Act%20514.pdf"
       }
     ],
     "readings": [
@@ -366,19 +366,19 @@
     "references": [
       {
         "title": "T.L Floyd, Electronic Devices, 7th edition, Prentice Hall",
-        "link": ""
+        "link": "https://uodiyala.edu.iq/uploads/PDF%20ELIBRARY%20UODIYALA/EL38/Electronic_Devices_Floyd.pdf"
       },
       {
         "title": "Robert L. Boylestad, Louis Nashelsky, Electronic Devices and Circuit Theory, 11th Edition, Pearson",
-        "link": ""
+        "link": "https://www.amazon.com/Electronic-Devices-Circuit-Theory-11th/dp/0132622262"
       },
       {
         "title": "Robert T. Paynter, Introductory Electronic Devices and Circuits, 6th Edition, Prentice Hall",
-        "link": ""
+        "link": "https://www.abebooks.com/9780130617507/Introductory-Electronic-Devices-Circuits-Electron-0130617504/plp"
       },
       {
         "title": "Donald A. Neamen, Microelectronics: Circuit Analysis and Design, 4th Edition, McGraw-Hill",
-        "link": ""
+        "link": "https://www.academia.edu/81421913/Microelectronics_Circuit_Analysis_and_Design"
       }
     ],
     "readings": [
@@ -399,13 +399,13 @@
   {
     "grade": 2,
     "term": 1,
-    "code": "EEE211",
+    "code": "EEE211*",
     "name": "Data structure",
     "image": "https://th.bing.com/th/id/OIP.J38nYZU7gzu-4lQmtjlSUwHaEK?w=302&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
     "references": [
       {
         "title": "Richard F. Gilberg and Behrouz A. Forouzan. Data Structures: A Pseudocode Approach with C++, 2nd edition. Cengage Learning, 2004.",
-        "link": ""
+        "link": "https://ggnindia.dronacharya.info/Downloads/Sub-info/RelatedBook/4thSem/Object-Oriented-Programming-text-book-4.pdf"
       },
       {
         "title": "",
@@ -437,13 +437,13 @@
   {
     "grade": 2,
     "term": 1,
-    "code": "EEE312",
+    "code": "EEE312*",
     "name": "Programming Practice",
     "image": "https://th.bing.com/th/id/OIP.zpo5YzVTR2hp3jmIOQjSAAHaEK?w=298&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
     "references": [
       {
         "title": "S. Nomura, C Programming and Numerical Analysis: An Introduction, Morgan & Claypool Publishers 2018. ",
-        "link": "https://www.google.com.my/books/edition/C_Programming_and_Numerical_Analysis/l4JyEAAAQBAJ?hl=zh-CN&gbpv=0"
+        "link": "https://www.abebooks.com/book-search/title/programming-numerical-analysis-introduction/author/nomura-seiichi/"
       },
       {
         "title": "",
@@ -477,7 +477,7 @@
     "references": [
       {
         "title": "John L. Hennessy, David A. Patterson (2017) Computer Architecture: A Quantitative Approach, 6th Edition. Morgan Kaufmann",
-        "link": ""
+        "link": "https://acs.pub.ro/~cpop/SMPA/Computer%20Architecture,%20Sixth%20Edition_%20A%20Quantitative%20Approach%20(%20PDFDrive%20).pdf"
       },
       {
         "title": "",
@@ -514,11 +514,11 @@
     "references": [
       {
         "title": "Thomas L. Floyd (2014). Digital Fundamentals (11th ed.). Prentice-Hall.",
-        "link": "https://www.google.com.my/books/edition/Digital_Fundamentals_11th_Edition_by_Pea/-g_CDwAAQBAJ?hl=zh-CN"
+        "link": "https://bpcbirgunj.edu.np/wp-content/uploads/2019/10/DIGITAL_ELECTRONICS-by-Flyod.pdf"
       },
       {
         "title": "Ronald J. Tocci, Digital Systems, Principles and Applications, 12th Edition, Perason.",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/digital-systems/P200000001946/9780137524723"
       }
     ],
     "readings": [
@@ -548,15 +548,15 @@
     "references": [
       {
         "title": "John A. Gubner. (2012) Probability and Random Processes for Electrical and Computer Engineers. Cambridge University Press.",
-        "link": ""
+        "link": "https://www.cambridge.org/core/books/probability-and-random-processes-for-electrical-and-computer-engineers/C55FA5AF41DE594A094A0753014FFB93"
       },
       {
         "title": "Wang, Jindong & Chen, Yiqiang & Hao, Shuji & Peng, Xiaohui & Lisha, Hu. (2017). Deep Learning for Sensor-based Activity Recognition: A Survey. Pattern Recognition Letters.10.1016/j.patrec.2018.02.010.",
-        "link": ""
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/S016786551830045X"
       },
       {
         "title": "Paxson, Vern & Floyd, Sally (1995). Wide-Area Traffic: The Failure of Poisson Modeling. Networking, IEEE/ACM Transactions on.3.226 244.10.1109/90.392383.",
-        "link": ""
+        "link": "https://web.stanford.edu/class/cs244/papers/paxson1995.pdf"
       }
     ],
     "readings": [
@@ -583,7 +583,7 @@
     "references": [
       {
         "title": "S. M. Sze, Y. Li, K. K. Ng, Physics of Semiconductor Devices, 4th Ed. Wiley 2019",
-        "link": ""
+        "link": "https://www.wiley.com/en-us/Physics+of+Semiconductor+Devices%2C+4th+Edition-p-9781119429111"
       },
       {
         "title": "",
@@ -614,11 +614,11 @@
     "references": [
       {
         "title": "Oppenheim, A. V., and A. S. Willsky, with S. H. Nawab (2022). Signals and Systems, 2nd Edition. Pearson.",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/signals-and-systems/P200000003155/9780138147570"
       },
       {
         "title": "Hsu, H. P. (2020). Schaum's Outline of Signals and Systems, 4th Edition. United States: McGraw Hill LLC.",
-        "link": ""
+        "link": "https://www.accessengineeringlibrary.com/content/book/9781260454246"
       }
     ],
     "readings": [
@@ -652,7 +652,7 @@
     "references": [
       {
         "title": "Atif Iqbal, Shaikh Moinoddin, Bhimireddy Prathap Reddy. 'Electrical Machine Fundamentals with Numerical Simulation using MATLAB/SIMULINK'. 1st edition. Wiley. 2021.",
-        "link": ""
+        "link": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119682684"
       },
       {
         "title": "",
@@ -718,15 +718,15 @@
     "references": [
       {
         "title": "Sadiku,M. & Nelatury,S. (2021), Element of Electromagnetics (7th Edition), Oxford: Oxford University Press ",
-        "link": ""
+        "link": "https://global.oup.com/ukhe/product/elements-of-electromagnetics-9780190698621?cc=my&lang=en&"
       },
       {
         "title": "Hayt, W. & Buck, J. (2019) Engineering Electromagnetics (9th Edition). New York: McGrawhill Education ",
-        "link": ""
+        "link": "https://dokumen.pub/engineering-electromagnetics-9th-ed-9nbsped.html"
       },
       {
         "title": "Ulaby, F. & Ravaioli, U. (2020) Fundamentals of Applied Electromagnetics (8th Edition). Essex: Pearson Education Ltd.",
-        "link": ""
+        "link": "https://dokumen.pub/fundamentals-of-applied-electromagnetics-8thedition-8nbsped.html"
       }
     ],
     "readings": [
@@ -753,16 +753,16 @@
     "references": [
       {
         "title": "C. M. Chang, Engineering Management: Meeting the Global Challenges, 2016, CRC Press",
-        "link": ""
+        "link": "https://www.taylorfrancis.com/books/mono/10.1201/9781315382128/engineering-management-chang"
       },
       {
-        "title": "Stephen P. Robbins, Mary A. Coulter, Management, 2017, Pearson Education Limited",
+        "title": "",
         "link": ""
       }
     ],
     "readings": [
       {
-        "title": "",
+        "title": "Stephen P. Robbins, Mary A. Coulter, Management, 2017, Pearson Education Limited",
         "link": ""
       },
       {
@@ -784,7 +784,7 @@
     "references": [
       {
         "title": " E. Kuffel, W.S. Zaengl, J. Kuffel. (2016). 'High Voltage Engineering: Fundamentals', Newness.",
-        "link": ""
+        "link": "https://www.mv.helsinki.fi/home/tpaulin/Text/hveng.pdf"
       },
       {
         "title": "",
@@ -813,22 +813,22 @@
   {
     "grade": 3,
     "term": 1,
-    "code": "EEE323",
+    "code": "EEE323*",
     "name": "Digital Signal Processing",
     "image": "https://talkpod.com/cdn/shop/articles/WeChatc18bd10ff73e2732f66fba6a5c1d9e30.jpg?v=1710943758&width=2048",
     "references": [
       {
         "title": "Robert J. Schilling and Sandra L. Harris, Digital Signal Processing Using MATLAB, Cengage Learning, Third Edition, 2017",
-        "link": ""
+        "link": "https://www.mathworks.com/academia/books/digital-signal-processing-using-matlab-schilling.html"
       },
       {
-        "title": "Vinay K. Ingle, John G. Proakis, Digital Signal Processing Using MATLAB, 3rd Edition Cengage Learning, 2011",
+        "title": "",
         "link": ""
       }
     ],
     "readings": [
       {
-        "title": "",
+        "title": "Vinay K. Ingle, John G. Proakis, Digital Signal Processing Using MATLAB, 3rd Edition Cengage Learning, 2011",
         "link": ""
       },
       {
@@ -847,13 +847,13 @@
   {
     "grade": 3,
     "term": 1,
-    "code": "EEE327",
+    "code": "EEE327*",
     "name": "Power Quality",
     "image": "https://www.eskom.co.za/eas/wp-content/uploads/2021/04/Power-Factor1.jpg",
     "references": [
       {
         "title": "P. Sivaraman, C. Sharmeela, Jens Bo Holm-Nielsen, P. Sivaraman, Power Quality in Modern Power Systems, 1st Edition, 2020, Imprint: Academic Press, Paperback ISBN: 9780128233467.",
-        "link": ""
+        "link": "https://www.sciencedirect.com/book/9780128233467/power-quality-in-modern-power-systems"
       },
       {
         "title": "",
@@ -887,15 +887,15 @@
     "references": [
       {
         "title": "Sepehr Naimi. The AVR Microcontroller and Embedded Systems Using Assembly and C: Using Arduino Uno and AtmelStudio.2nd Edition. Pearson Education.2017.",
-        "link": ""
+        "link": "https://electrovolt.ir/wp-content/uploads/2017/02/AVR_Microcontroller_and_Embedded_Electrovolt.ir_.pdf"
       },
       {
         "title": "Alexander G Dean. Embedded Systems Fundamentals with ARM Cortex-M based Microcontrollers: A Practical Approach. First Edition. ARM Education Media.2017.",
-        "link": ""
+        "link": "https://www.amazon.com/Embedded-Systems-Fundamentals-Cortex-M-Microcontrollers/dp/1911531034"
       },
       {
         "title": "Marilyn Wolf, Embedded System Interfacing. First Edition. Elsevier. 2019.",
-        "link": ""
+        "link": "https://shop.elsevier.com/books/embedded-system-interfacing/wolf/978-0-12-817402-9"
       }
     ],
     "readings": [
@@ -922,14 +922,14 @@
     "references": [
       {
         "title": "Muhammad H. Rashid, Power Electronics Circuits Devices and Applications, Fourth edition, Pearson2014",
-        "link": ""
-      },
-      {
-        "title": "Vinod Kumar, Power Electronics, Drives, and Advanced Applications 1st Edition CRC Press 2020Andrzej M. Trzynadlowski, Introduction to Modern Power Electronics, 3rd Edition, Wiley2015",
-        "link": ""
+        "link": "https://www.pearson.com/en-us/subject-catalog/p/power-electronics-circuits-devices--applications/P200000003551/9780137982097"
       },
       {
         "title": "M D Singhu, M D Singhu, Power Electronics, 2ndedition, Tsinghua university press, 2011.",
+        "link": "https://www.scribd.com/document/394759942/M-D-Singh-K-B-Khanchandani-Power-Electronics"
+      },
+      {
+        "title": "Vinod Kumar, Power Electronics, Drives, and Advanced Applications 1st Edition CRC Press 2020Andrzej M. Trzynadlowski, Introduction to Modern Power Electronics, 3rd Edition, Wiley2015",
         "link": ""
       }
     ],
@@ -957,11 +957,11 @@
     "references": [
       {
         "title": "Douglas C. Montgomery, George C. Runger. Applied Statistics and Probability for Engineers, 7th Edition, 2018",
-        "link": ""
+        "link": "https://www.wiley.com/en-us/Applied+Statistics+and+Probability+for+Engineers%2C+7th+Edition-p-9781119400363"
       },
       {
         "title": "Steven C. Chapra. Applied Numerical Methods with MATLAB for Engineers and Scientists, McGraw-Hill Education, 4th Edition, 2017.",
-        "link": ""
+        "link": "https://www.amazon.com/Applied-Numerical-Methods-Engineers-Scientists/dp/0073397962"
       }
     ],
     "readings": [
@@ -992,7 +992,7 @@
     "references": [
       {
         "title": "VENKATESH, P., MANIKANDAN, B. V., RAJA, S. C., SRINIVASAN, A. (2012). ELECTRICAL POWER SYSTEMS: ANALYSIS, SECURITY AND DEREGULATION.",
-        "link": ""
+        "link": "https://books.google.com/books?id=Z4xFdwjrZc0C&printsec=frontcover&dq=Power+Systems+Analysis&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwjzuZn7g7OJAxXqTmwGHQpMOuoQ6AF6BAgIEAI"
       },
       {
         "title": "",
@@ -1027,15 +1027,15 @@
     "references": [
       {
         "title": "Sunil Bhooshan, Fundamentals of Analogue and Digital Communication Systems, 1st Edition, Springer, 2021.",
-        "link": ""
+        "link": "https://books.google.com/books?id=MgdGEAAAQBAJ&printsec=frontcover&dq=Sunil+Bhooshan,+Fundamentals+of+Analogue+and+Digital+Communication+Systems&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwjnuvXkhLOJAxV2cGwGHfs7ClwQ6AF6BAgLEAI"
       },
       {
         "title": "John G. Proakis, Masoud Salehi. Fundamentals of Communication Systems, 2nd Edition. Prentice Hall, 2014.",
-        "link": ""
+        "link": "https://www.academia.edu/29677426/FUNDAMENTALS_OF_COMMUNICATION_SYSTEMS_John_G_Proakis_Masoud_Salehi_2014_1_"
       },
       {
         "title": "Rodger E. Ziemer, William H. Principles of Communications, 7th Edition. Tranter Wiley, 2014.",
-        "link": ""
+        "link": "https://www.wiley.com/en-br/Principles+of+Communications%2C+7th+Edition-p-9781118078914"
       }
     ],
     "readings": [
@@ -1066,7 +1066,7 @@
     "references": [
       {
         "title": "Frank Kreith and D. Yogi Goswami, Energy Management and Conservation Handbook, CRC Press, 2017.",
-        "link": ""
+        "link": "https://books.google.com.my/books?id=7eRSO522bwcC&pg=PP7&dq=Frank+Kreith+and+D.+Yogi+Goswami,+Energy+Management+and+Conservation+Handbook,+CRC+Press,&hl=zh-CN&newbks=1&newbks_redir=1&sa=X&ved=2ahUKEwjbuvaGhbOJAxUDe2wGHe0DEhkQ6AF6BAgFEAI"
       },
       {
         "title": "",
